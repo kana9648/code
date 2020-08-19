@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="../html/CSS.css" type="text/css" />
+    <style>
+      h1 {
+        color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS</h1>
+    <ul>
+      <li>태그 내부선언</li>
+      <li>head tag 안에 선언</li>
+      <li>외부파일</li>
+    </ul>
+    <h1>CSS Selector</h1>
+    <ul>
+      <li>*(all)</li>
+      <li>tag name(선택한 태그)</li>
+      <li>tag name[id='id name'](선택한 아이디를 가지고있는 하나의 태그)</li>
+      <!-- #id name[style tag] -->
+      <li>
+        tag name[class='class name'](선택한 클래스를 가지고있는 모든 태그)
+      </li>
+      <!-- .class name[style tag] -->
+      <li>Span(중간에 CSS 적용을 위해 사용)</li>
+      <!-- <span></span> -->
+      <li>tag name, tag name,tag name(group)</li>
+      <!-- 복수의 태그를 같은 CSS로 적용시킬떄 사용 -->
+      <!-- !important(우선순위 높임) -->
+    </ul>
+    <h1>CSS 우선순위</h1>
+    <ol>
+      <li>inline</li>
+      <li>head</li>
+      <li>out file</li>
+    </ol>
+    <h1>CSS Sample</h1>
+    <h2 style="color: blueviolet;">CSS Sample Color</h2>
+    <h2>Code</h2>
+    <xmp><tag style="color: color;"></tag></xmp>
+    <h2 style="font-size: xx-large;">CSS Font Sample</h2>
+    <h2>code</h2>
+    <xmp><tag style="font-size: size;"></tag></xmp>
+    <h3>CSS file use</h3>
+    <xmp>
+        <head>
+            <link type="text/css" rel="stylesheet" href="../html/CSS.css">
+        </head>
+    </xmp>
+    <h3>CSS File code</h3>
+    <xmp>tag{style tag}</xmp>
+    <h2>head tag CSS</h2>
+    <xmp>
+        <head>
+            <style>tag[id="id"]{style tag;}</style>
+        </head>
+    </xmp>
+  </body>
+</html>
