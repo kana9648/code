@@ -1,0 +1,21 @@
+header{
+	width:800px;
+	margin:0 auto;
+	border:1px black solid;
+	height:150px;
+	padding:10px;
+	position:relative
+		
+}
+
+#menu>li{
+	display:inline;
+	margin:10px
+}
+
+div>#menu{
+	float:right;
+}
+input{
+	display:none;
+}
