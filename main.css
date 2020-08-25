@@ -7,15 +7,15 @@ header{
 	position:relative
 		
 }
-
-#menu>li{
-	display:inline;
-	margin:10px
-}
-
-div>#menu{
+label{
 	float:right;
-}
-input{
-	display:none;
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: black;
+    color: white;
+	padding: 5px;
 }
