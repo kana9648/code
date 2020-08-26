@@ -1,21 +1,18 @@
-header{
-	width:800px;
-	margin:0 auto;
-	border:1px black solid;
-	height:150px;
-	padding:10px;
-	position:relative
-		
+body {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+  overflow: hidden;
 }
-label{
-	float:right;
-    display: block;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    box-sizing: border-box;
-    border: 1px solid black;
-    background: black;
-    color: white;
-	padding: 5px;
+header {
+  width: 800px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+  overflow: hidden;
+}
+
+h1 {
+  display: inline;
 }
